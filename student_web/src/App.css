@@ -1,0 +1,137 @@
+.std-container {
+  width: 80%;
+  max-width: 700px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(211, 184, 121);
+  margin-bottom: 20px;
+}
+
+.addeditpn {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: rgb(49, 49, 118);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.addeditpndiv {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.addeditinput {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  color: #000;
+}
+
+.addBtn, .cancelBtn {
+  padding: 6px 12px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.addBtn {
+  background-color: rgb(113, 176, 49);
+  color: white;
+}
+
+.cancelBtn {
+  background-color: rgb(229, 102, 102);
+  color: white;
+}
+
+.insearch {
+  width: 50%;
+  min-width: 200px;
+  padding: 5px 10px;
+  margin: 15px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  color: #000;
+}
+
+.std-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.std-table th, .std-table td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+.std-table th {
+  background-color: rgb(68, 68, 176);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(179, 118, 95);
+}
+
+.editBtn, .deleteBtn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.editBtn {
+  background-color: rgb(113, 176, 49);
+}
+
+.deleteBtn {
+  background-color: rgb(229, 102, 102);
+}
+
+.pagediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.pagedivbtn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: rgb(113, 154, 229);
+  color: white;
+}
+
+.pagedivbtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pgidx {
+  font-size: 14px;
+  font-weight: 500;
+}
